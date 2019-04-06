@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "481b0187eb9ce1015289",
+    "revision": "478bd71ec7a6438178ab",
     "url": "/react-material-ui-firebase/static/css/main.b0564c47.chunk.css"
   },
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
     "revision": "4b89cb44a7684df413e2",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
-    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.d69924b9.woff2"
-  },
-  {
     "revision": "210a7c781f5a354a0e4985656ab456d9",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.210a7c78.woff"
+  },
+  {
+    "revision": "d69924b98acd849cdeba9fbff3f88ea6",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
     "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "481b0187eb9ce1015289",
-    "url": "/react-material-ui-firebase/static/js/main.481b0187.chunk.js"
+    "revision": "478bd71ec7a6438178ab",
+    "url": "/react-material-ui-firebase/static/js/main.478bd71e.chunk.js"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -84,39 +84,39 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-500italic.ffcc050b.woff"
   },
   {
-    "revision": "037d830416495def72b7881024c14b7b",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-700.037d8304.woff2"
-  },
-  {
     "revision": "cf6613d1adf490972c557a8e318e0868",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700.cf6613d1.woff"
+  },
+  {
+    "revision": "037d830416495def72b7881024c14b7b",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-700.037d8304.woff2"
   },
   {
     "revision": "010c1aeee3c6d1cbb1d5761d80353823",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
-    "revision": "846d1890aee87fde5d8ced8eba360c3a",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.846d1890.woff"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
     "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-900.19b7a0ad.woff2"
   },
   {
-    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.8c2ade50.woff"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
+    "revision": "846d1890aee87fde5d8ced8eba360c3a",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.846d1890.woff"
   },
   {
     "revision": "4b89cb44a7684df413e2",
     "url": "/react-material-ui-firebase/static/css/1.e557333c.chunk.css"
   },
   {
-    "revision": "29cf4eaf8377b9baf1861ff29579e770",
+    "revision": "1b3b7a0efe736bb1b17de475f8b782df",
     "url": "/react-material-ui-firebase/index.html"
   }
 ];
