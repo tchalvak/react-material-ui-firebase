@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "b7a0ecbb5b5c19b836c8",
+    "revision": "68786d9b714bc67fbacd",
     "url": "/react-material-ui-firebase/static/css/main.cf9ce81b.chunk.css"
   },
   {
@@ -40,28 +40,28 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300.55536c8e.woff2"
   },
   {
-    "revision": "a1471d1d6431c893582a5f6a250db3f9",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-300.a1471d1d.woff"
-  },
-  {
     "revision": "d69924b98acd849cdeba9fbff3f88ea6",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
-    "revision": "210a7c781f5a354a0e4985656ab456d9",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.210a7c78.woff"
+    "revision": "a1471d1d6431c893582a5f6a250db3f9",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
     "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.5d4aeb4e.woff2"
   },
   {
+    "revision": "210a7c781f5a354a0e4985656ab456d9",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.210a7c78.woff"
+  },
+  {
     "revision": "bafb105baeb22d965c70fe52ba6b49d9",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "b7a0ecbb5b5c19b836c8",
-    "url": "/react-material-ui-firebase/static/js/main.b7a0ecbb.chunk.js"
+    "revision": "68786d9b714bc67fbacd",
+    "url": "/react-material-ui-firebase/static/js/main.68786d9b.chunk.js"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-500italic.510dec37.woff2"
   },
   {
-    "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-500italic.ffcc050b.woff"
-  },
-  {
     "revision": "037d830416495def72b7881024c14b7b",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700.037d8304.woff2"
+  },
+  {
+    "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-500italic.ffcc050b.woff"
   },
   {
     "revision": "cf6613d1adf490972c557a8e318e0868",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/css/1.e61f935f.chunk.css"
   },
   {
-    "revision": "df1ff0455d9f53aa19979dc2127835c5",
+    "revision": "f6899e0e5ffafab38fa4c61bbeeee7c5",
     "url": "/react-material-ui-firebase/index.html"
   }
 ];
