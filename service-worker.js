@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-material-ui-firebase/precache-manifest.a0386305ae28eac58dd58ad40faecb71.js"
+  "/react-material-ui-firebase/precache-manifest.20404817f32fcaff34bd86163584d757.js"
 );
 
 workbox.clientsClaim();
