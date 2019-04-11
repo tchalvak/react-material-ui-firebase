@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.9680d5a0.woff"
   },
   {
-    "revision": "285467176f7fe6bb6a9c6873b3dad2cc",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-500.28546717.woff2"
-  },
-  {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-500.de8b7431.woff"
+  },
+  {
+    "revision": "285467176f7fe6bb6a9c6873b3dad2cc",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-500.28546717.woff2"
   },
   {
     "revision": "510dec37fa69fba39593e01a469ee018",
@@ -92,20 +92,20 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700.cf6613d1.woff"
   },
   {
-    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.010c1aee.woff2"
-  },
-  {
     "revision": "846d1890aee87fde5d8ced8eba360c3a",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.846d1890.woff"
   },
   {
-    "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.19b7a0ad.woff2"
+    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
     "revision": "8c2ade503b34e31430d6c98aa29a52a3",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-900.8c2ade50.woff"
+  },
+  {
+    "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.19b7a0ad.woff2"
   },
   {
     "revision": "7b770d6c53423deb1a8e49d3c9175184",
