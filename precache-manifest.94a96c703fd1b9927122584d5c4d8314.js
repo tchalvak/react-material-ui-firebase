@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "060e691efee4a0bab733",
+    "revision": "9a0398787d7fe71d6552",
     "url": "/react-material-ui-firebase/static/css/main.641e03fa.chunk.css"
   },
   {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
     "revision": "7c83c483555039e7a742",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-100.e9dbbe8a.woff"
   },
   {
-    "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-100italic.6232f43d.woff2"
-  },
-  {
     "revision": "d704bb3d579b7d5e40880c75705c8a71",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-100italic.d704bb3d.woff"
+  },
+  {
+    "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-100italic.6232f43d.woff2"
   },
   {
     "revision": "55536c8e9e9a532651e3cf374f290ea3",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "060e691efee4a0bab733",
-    "url": "/react-material-ui-firebase/static/js/main.060e691e.chunk.js"
+    "revision": "9a0398787d7fe71d6552",
+    "url": "/react-material-ui-firebase/static/js/main.9a039878.chunk.js"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -108,15 +108,15 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
     "revision": "7c83c483555039e7a742",
     "url": "/react-material-ui-firebase/static/css/1.d57b801d.chunk.css"
   },
   {
-    "revision": "8d158e9e904332aa23a0e123ef9dd36f",
+    "revision": "a6159e93ad1d4a9442eb70b3fc71aacc",
     "url": "/react-material-ui-firebase/index.html"
   }
 ];
