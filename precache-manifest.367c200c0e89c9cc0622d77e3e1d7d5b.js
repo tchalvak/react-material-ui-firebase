@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "29942054098bd560cf12",
+    "revision": "060e691efee4a0bab733",
     "url": "/react-material-ui-firebase/static/css/main.641e03fa.chunk.css"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-100italic.d704bb3d.woff"
   },
   {
-    "revision": "a1471d1d6431c893582a5f6a250db3f9",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-300.a1471d1d.woff"
-  },
-  {
     "revision": "55536c8e9e9a532651e3cf374f290ea3",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300.55536c8e.woff2"
+  },
+  {
+    "revision": "a1471d1d6431c893582a5f6a250db3f9",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-300.a1471d1d.woff"
   },
   {
     "revision": "d69924b98acd849cdeba9fbff3f88ea6",
@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "29942054098bd560cf12",
-    "url": "/react-material-ui-firebase/static/js/main.29942054.chunk.js"
-  },
-  {
-    "revision": "285467176f7fe6bb6a9c6873b3dad2cc",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-500.28546717.woff2"
+    "revision": "060e691efee4a0bab733",
+    "url": "/react-material-ui-firebase/static/js/main.060e691e.chunk.js"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.9680d5a0.woff"
+  },
+  {
+    "revision": "285467176f7fe6bb6a9c6873b3dad2cc",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-500.28546717.woff2"
   },
   {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/css/1.d57b801d.chunk.css"
   },
   {
-    "revision": "6e694a505ec867fbe7e485a4bac07a31",
+    "revision": "8d158e9e904332aa23a0e123ef9dd36f",
     "url": "/react-material-ui-firebase/index.html"
   }
 ];
