@@ -1,16 +1,16 @@
 {
   "main.css": "/react-material-ui-firebase/static/css/main.2ed72506.chunk.css",
-  "main.js": "/react-material-ui-firebase/static/js/main.606c5627.chunk.js",
-  "main.js.map": "/react-material-ui-firebase/static/js/main.606c5627.chunk.js.map",
+  "main.js": "/react-material-ui-firebase/static/js/main.6c29ac27.chunk.js",
+  "main.js.map": "/react-material-ui-firebase/static/js/main.6c29ac27.chunk.js.map",
   "static/css/1.168d1784.chunk.css": "/react-material-ui-firebase/static/css/1.168d1784.chunk.css",
   "static/js/1.8f196bc3.chunk.js": "/react-material-ui-firebase/static/js/1.8f196bc3.chunk.js",
   "static/js/1.8f196bc3.chunk.js.map": "/react-material-ui-firebase/static/js/1.8f196bc3.chunk.js.map",
   "runtime~main.js": "/react-material-ui-firebase/static/js/runtime~main.2aa80d77.js",
   "runtime~main.js.map": "/react-material-ui-firebase/static/js/runtime~main.2aa80d77.js.map",
-  "static/media/index.css": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/css/1.168d1784.chunk.css.map": "/react-material-ui-firebase/static/css/1.168d1784.chunk.css.map",
+  "static/media/index.css": "/react-material-ui-firebase/static/media/roboto-latin-700.037d8304.woff2",
   "static/css/main.2ed72506.chunk.css.map": "/react-material-ui-firebase/static/css/main.2ed72506.chunk.css.map",
+  "static/css/1.168d1784.chunk.css.map": "/react-material-ui-firebase/static/css/1.168d1784.chunk.css.map",
   "index.html": "/react-material-ui-firebase/index.html",
-  "precache-manifest.65284243e00dd4910eb6d77b52be1de2.js": "/react-material-ui-firebase/precache-manifest.65284243e00dd4910eb6d77b52be1de2.js",
+  "precache-manifest.4c3d3cf5e0915ef17d10a766d1dc598d.js": "/react-material-ui-firebase/precache-manifest.4c3d3cf5e0915ef17d10a766d1dc598d.js",
   "service-worker.js": "/react-material-ui-firebase/service-worker.js"
 }
