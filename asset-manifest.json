@@ -1,7 +1,7 @@
 {
   "main.css": "/react-material-ui-firebase/static/css/main.2ed72506.chunk.css",
-  "main.js": "/react-material-ui-firebase/static/js/main.36747736.chunk.js",
-  "main.js.map": "/react-material-ui-firebase/static/js/main.36747736.chunk.js.map",
+  "main.js": "/react-material-ui-firebase/static/js/main.a5e6fe08.chunk.js",
+  "main.js.map": "/react-material-ui-firebase/static/js/main.a5e6fe08.chunk.js.map",
   "static/css/1.168d1784.chunk.css": "/react-material-ui-firebase/static/css/1.168d1784.chunk.css",
   "static/js/1.4d6f7232.chunk.js": "/react-material-ui-firebase/static/js/1.4d6f7232.chunk.js",
   "static/js/1.4d6f7232.chunk.js.map": "/react-material-ui-firebase/static/js/1.4d6f7232.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.2ed72506.chunk.css.map": "/react-material-ui-firebase/static/css/main.2ed72506.chunk.css.map",
   "static/css/1.168d1784.chunk.css.map": "/react-material-ui-firebase/static/css/1.168d1784.chunk.css.map",
   "index.html": "/react-material-ui-firebase/index.html",
-  "precache-manifest.490e14ab85ff49d8eb3d8c4ef6746445.js": "/react-material-ui-firebase/precache-manifest.490e14ab85ff49d8eb3d8c4ef6746445.js",
+  "precache-manifest.9e9fb233bb8f78ed930e5674663b99b6.js": "/react-material-ui-firebase/precache-manifest.9e9fb233bb8f78ed930e5674663b99b6.js",
   "service-worker.js": "/react-material-ui-firebase/service-worker.js"
 }
