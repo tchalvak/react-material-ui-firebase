@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/css/main.ce1937e4.chunk.css"
   },
   {
-    "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.19b7a0ad.woff2"
+    "revision": "bc833e725c137257c2c42a789845d82f",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
   },
   {
     "revision": "1b2268bf05d9c4682068",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
-  },
-  {
     "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.5d4aeb4e.woff2"
+  },
+  {
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
     "revision": "cfc2ee366deb2dff9b5c",
@@ -100,16 +100,16 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-700italic.846d1890.woff"
   },
   {
-    "revision": "7b770d6c53423deb1a8e49d3c9175184",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
-  },
-  {
-    "revision": "bc833e725c137257c2c42a789845d82f",
-    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
+    "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900.19b7a0ad.woff2"
   },
   {
     "revision": "8c2ade503b34e31430d6c98aa29a52a3",
     "url": "/react-material-ui-firebase/static/media/roboto-latin-900.8c2ade50.woff"
+  },
+  {
+    "revision": "7b770d6c53423deb1a8e49d3c9175184",
+    "url": "/react-material-ui-firebase/static/media/roboto-latin-900italic.7b770d6c.woff2"
   },
   {
     "revision": "1b2268bf05d9c4682068",
