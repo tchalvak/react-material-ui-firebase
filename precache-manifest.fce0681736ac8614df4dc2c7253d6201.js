@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
-    "revision": "ca79a7c608d19ed78211",
+    "revision": "e55ad59dd42185848c42",
     "url": "/react-material-ui-firebase/static/css/main.85820cd4.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/media/roboto-latin-400.bafb105b.woff"
   },
   {
-    "revision": "ca79a7c608d19ed78211",
-    "url": "/react-material-ui-firebase/static/js/main.ca79a7c6.chunk.js"
+    "revision": "e55ad59dd42185848c42",
+    "url": "/react-material-ui-firebase/static/js/main.e55ad59d.chunk.js"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/react-material-ui-firebase/static/css/1.d45b7692.chunk.css"
   },
   {
-    "revision": "03d7ffd30294c1a3d464142cca73267f",
+    "revision": "31aa5ff355d4ec9e6063ff9dfa0fac36",
     "url": "/react-material-ui-firebase/index.html"
   }
 ];
