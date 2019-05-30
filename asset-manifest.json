@@ -1,16 +1,18 @@
 {
-  "main.css": "/react-material-ui-firebase/static/css/main.85820cd4.chunk.css",
-  "main.js": "/react-material-ui-firebase/static/js/main.fd73073d.chunk.js",
-  "main.js.map": "/react-material-ui-firebase/static/js/main.fd73073d.chunk.js.map",
-  "static/css/1.d45b7692.chunk.css": "/react-material-ui-firebase/static/css/1.d45b7692.chunk.css",
-  "static/js/1.cc06db14.chunk.js": "/react-material-ui-firebase/static/js/1.cc06db14.chunk.js",
-  "static/js/1.cc06db14.chunk.js.map": "/react-material-ui-firebase/static/js/1.cc06db14.chunk.js.map",
-  "runtime~main.js": "/react-material-ui-firebase/static/js/runtime~main.2aa80d77.js",
-  "runtime~main.js.map": "/react-material-ui-firebase/static/js/runtime~main.2aa80d77.js.map",
-  "static/media/index.css": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff",
-  "static/css/main.85820cd4.chunk.css.map": "/react-material-ui-firebase/static/css/main.85820cd4.chunk.css.map",
-  "static/css/1.d45b7692.chunk.css.map": "/react-material-ui-firebase/static/css/1.d45b7692.chunk.css.map",
-  "index.html": "/react-material-ui-firebase/index.html",
-  "precache-manifest.d00dfb23f495342420507c741e364148.js": "/react-material-ui-firebase/precache-manifest.d00dfb23f495342420507c741e364148.js",
-  "service-worker.js": "/react-material-ui-firebase/service-worker.js"
+  "files": {
+    "main.css": "/react-material-ui-firebase/static/css/main.795991f2.chunk.css",
+    "main.js": "/react-material-ui-firebase/static/js/main.2c4e4a27.chunk.js",
+    "main.js.map": "/react-material-ui-firebase/static/js/main.2c4e4a27.chunk.js.map",
+    "runtime~main.js": "/react-material-ui-firebase/static/js/runtime~main.438f6793.js",
+    "runtime~main.js.map": "/react-material-ui-firebase/static/js/runtime~main.438f6793.js.map",
+    "static/css/2.ff8d51eb.chunk.css": "/react-material-ui-firebase/static/css/2.ff8d51eb.chunk.css",
+    "static/js/2.88faf258.chunk.js": "/react-material-ui-firebase/static/js/2.88faf258.chunk.js",
+    "static/js/2.88faf258.chunk.js.map": "/react-material-ui-firebase/static/js/2.88faf258.chunk.js.map",
+    "index.html": "/react-material-ui-firebase/index.html",
+    "precache-manifest.5ca26c4d92c80dfef1209d633523fb60.js": "/react-material-ui-firebase/precache-manifest.5ca26c4d92c80dfef1209d633523fb60.js",
+    "service-worker.js": "/react-material-ui-firebase/service-worker.js",
+    "static/css/2.ff8d51eb.chunk.css.map": "/react-material-ui-firebase/static/css/2.ff8d51eb.chunk.css.map",
+    "static/css/main.795991f2.chunk.css.map": "/react-material-ui-firebase/static/css/main.795991f2.chunk.css.map",
+    "static/media/index.css": "/react-material-ui-firebase/static/media/roboto-latin-900italic.bc833e72.woff"
+  }
 }
