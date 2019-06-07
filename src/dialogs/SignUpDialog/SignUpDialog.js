@@ -1,55 +1,40 @@
 import React, { Component } from 'react';
 
-import PropTypes from 'prop-types';
-
-import validate from 'validate.js';
+import { withStyles } from '@material-ui/core/styles';
 
 import Dialog from '@material-ui/core/Dialog';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import DialogContent from '@material-ui/core/DialogContent';
-import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogActions from '@material-ui/core/DialogActions';
 
-import TextField from '@material-ui/core/TextField';
+import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Divider from '@material-ui/core/Divider';
+import TextField from '@material-ui/core/TextField';
 
-import AuthProviderList from '../../layout/AuthProviderList/AuthProviderList';
+import FacebookBoxIcon from 'mdi-material-ui/FacebookBox';
+import GitHubCircleIcon from 'mdi-material-ui/GithubCircle';
+import GoogleIcon from 'mdi-material-ui/Google';
+import MicrosoftIcon from 'mdi-material-ui/Microsoft';
+import TwitterIcon from 'mdi-material-ui/Twitter';
+import YahooIcon from 'mdi-material-ui/Yahoo';
 
-const initialState = {
-  emailAddress: '',
-  password: '',
-  passwordConfirmation: '',
+import PropTypes from 'prop-types';
 
-  errors: null
-};
+const styles = (theme) => ({
+  icon: {
+    marginRight: theme.spacing(0.5)
+  },
+
+  divider: {
+    margin: 'auto',
+
+    width: theme.spacing(0.125),
+    height: '100%'
+  }
+});
 
 class SignUpDialog extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = initialState;
-  }
-
-  signUp = () => {
-    const { emailAddress, password, passwordConfirmation } = this.state;
-    
-    const errors = validate({ emailAddress, password, passwordConfirmation }, this.props.constraints);
-
-    if (errors) {
-      this.setState({ errors });
-    } else {
-      this.setState({
-        errors: null
-      }, () => {
-        this.props.signUp(emailAddress, password, passwordConfirmation);
-      });
-    }
-  };
-
-  handleExited = () => {
-    this.setState(initialState);
-  };
-
   handleKeyPress = (event) => {
     const key = event.key;
 
@@ -58,99 +43,169 @@ class SignUpDialog extends Component {
     }
 
     if (key === 'Enter') {
-      this.signUp();
+      this.props.onOkClick();
     }
   };
 
-  handleEmailAddressChange = (event) => {
-    const emailAddress = event.target.value;
-
-    this.setState({ emailAddress });
-  };
-
-  handlePasswordChange = (event) => {
-    const password = event.target.value;
-
-    this.setState({ password });
-  };
-
-  handlePasswordConfirmationChange = (event) => {
-    const passwordConfirmation = event.target.value;
-
-    this.setState({ passwordConfirmation });
-  };
-
-  handleSignUpClick = () => {
-    this.signUp();
-  };
-
   render() {
-    // Properties
-    const { fullScreen, open, isPerformingAuthAction } = this.props;
+    // Styling
+    const { classes } = this.props;
 
-    // Events
-    const { onClose, onAuthProviderClick } = this.props;
+    // Dialog Properties
+    const { fullScreen, open } = this.props;
 
-    const { emailAddress, password, passwordConfirmation, errors } = this.state;
+    // Dialog Events
+    const { onClose } = this.props;
+
+    if (!onClose) {
+      return null;
+    }
+
+    const authProviders = [
+      {
+        key: 'facebook',
+        icon: <FacebookBoxIcon className={classes.icon} />,
+        backgroundColor: '#3c5a99',
+        color: '#ffffff',
+        name: 'Facebook'
+      },
+      {
+        key: 'github',
+        icon: <GitHubCircleIcon className={classes.icon} />,
+        backgroundColor: '#24292e',
+        color: '#ffffff',
+        name: 'GitHub'
+      },
+      {
+        key: 'google',
+        icon: <GoogleIcon className={classes.icon} />,
+        backgroundColor: '#4285f4',
+        color: '#ffffff',
+        name: 'Google'
+      },
+      {
+        key: 'microsoft',
+        icon: <MicrosoftIcon className={classes.icon} />,
+        backgroundColor: '#f65314',
+        color: '#ffffff',
+        name: 'Microsoft'
+      },
+      {
+        key: 'twitter',
+        icon: <TwitterIcon className={classes.icon} />,
+        backgroundColor: '#1da1f2',
+        color: '#ffffff',
+        name: 'Twitter'
+      },
+      {
+        key: 'yahoo',
+        icon: <YahooIcon className={classes.icon} />,
+        backgroundColor: '#410093',
+        color: '#ffffff',
+        name: 'Yahoo'
+      }
+    ];
 
     return (
-      <Dialog fullScreen={fullScreen} open={open} onClose={onClose} onExited={this.handleExited} onKeyPress={this.handleKeyPress}>
+      <Dialog fullScreen={fullScreen} open={open} onClose={onClose} onKeyPress={this.handleKeyPress}>
         <DialogTitle>
           Sign up for an account
         </DialogTitle>
 
         <DialogContent>
-          <DialogContentText>
-            Create an account to access features that are unavailable to users who haven't signed up.
-          </DialogContentText>
+          <Grid container spacing={4}>
+            <Grid item xs={4}>
+              <Grid container direction="column" spacing={2}>
+                {authProviders.map((authProvider) => {
+                  return (
+                    <Grid key={authProvider.key} item>
+                      <Button style={{ width: '100%', backgroundColor: authProvider.backgroundColor, color: authProvider.color }} variant="contained">
+                        {authProvider.icon}
+                        {authProvider.name}
+                      </Button>
+                    </Grid>
+                  );
+                })}
+              </Grid>
+            </Grid>
 
-          <AuthProviderList isPerformingAuthAction={isPerformingAuthAction} onAuthProviderClick={onAuthProviderClick} />
+            <Grid item xs>
+              <Divider className={classes.divider} />
+            </Grid>
 
-          <form>
-            <TextField
-              autoComplete="email"
-              error={!!(errors && errors.emailAddress)}
-              fullWidth
-              helperText={(errors && errors.emailAddress) ? errors.emailAddress[0] : ''}
-              label="E-mail address"
-              margin="normal"
-              onChange={this.handleEmailAddressChange}
-              required
-              type="email"
-              value={emailAddress}
-            />
+            <Grid item xs={7}>
+              <Grid container spacing={2}>
+                <Grid item xs>
+                  <TextField
+                    autoComplete="given-name"
+                    fullWidth
+                    label="First name"
+                    margin="normal"
+                    required
+                    type="text"
+                  />
+                </Grid>
 
-            <TextField
-              autoComplete="new-password"
-              error={!!(errors && errors.password)}
-              fullWidth
-              helperText={(errors && errors.password) ? errors.password[0] : ''}
-              label="Password"
-              margin="normal"
-              onChange={this.handlePasswordChange}
-              required
-              type="password"
-              value={password}
-            />
+                <Grid item xs>
+                  <TextField
+                    autoComplete="family-name"
+                    fullWidth
+                    label="Last name"
+                    margin="normal"
+                    required
+                    type="text"
+                  />
+                </Grid>
+              </Grid>
 
-            <TextField
-              autoComplete="password"
-              error={!!(errors && errors.passwordConfirmation)}
-              fullWidth
-              helperText={(errors && errors.passwordConfirmation) ? errors.passwordConfirmation[0] : ''}
-              label="Password confirmation"
-              margin="normal"
-              onChange={this.handlePasswordConfirmationChange}
-              required
-              type="password"
-              value={passwordConfirmation}
-            />
-          </form>
+              <TextField
+                autoComplete="username"
+                fullWidth
+                label="Username"
+                margin="normal"
+                required
+                type="text"
+              />
+
+              <TextField
+                autoComplete="email"
+                fullWidth
+                label="E-mail address"
+                margin="normal"
+                required
+                type="email"
+              />
+
+              <Grid container spacing={2}>
+                <Grid item xs>
+                  <TextField
+                    autoComplete="new-password"
+                    fullWidth
+                    label="Password"
+                    margin="normal"
+                    required
+                    type="password"
+                  />
+                </Grid>
+
+                <Grid item xs>
+                  <TextField
+                    autoComplete="password"
+                    fullWidth
+                    label="Password confirmation"
+                    margin="normal"
+                    required
+                    type="password"
+                  />
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
         </DialogContent>
 
         <DialogActions>
           <Button color="primary" onClick={onClose}>Cancel</Button>
-          <Button color="primary" disabled={(!emailAddress || !password || !passwordConfirmation) || isPerformingAuthAction} variant="contained" onClick={this.handleSignUpClick}>Sign Up</Button>
+          <Button color="primary" variant="contained">Sign Up</Button>
         </DialogActions>
       </Dialog>
     );
@@ -158,17 +213,12 @@ class SignUpDialog extends Component {
 }
 
 SignUpDialog.propTypes = {
+  classes: PropTypes.object.isRequired,
+
   fullScreen: PropTypes.bool,
   open: PropTypes.bool.isRequired,
 
-  isPerformingAuthAction: PropTypes.bool.isRequired,
-
-  constraints: PropTypes.object.isRequired,
-
-  signUp: PropTypes.func.isRequired,
-
-  onClose: PropTypes.func.isRequired,
-  onAuthProviderClick: PropTypes.func.isRequired
+  onClose: PropTypes.func.isRequired
 };
 
-export default SignUpDialog;
+export default withStyles(styles)(SignUpDialog);
