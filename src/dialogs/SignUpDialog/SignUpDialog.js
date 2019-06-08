@@ -11,6 +11,10 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import TextField from '@material-ui/core/TextField';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
 
 import FacebookBoxIcon from 'mdi-material-ui/FacebookBox';
 import GitHubCircleIcon from 'mdi-material-ui/GithubCircle';
@@ -37,6 +41,11 @@ const styles = (theme) => ({
     height: '100%'
   }
 });
+
+const genders = [
+  'female',
+  'male'
+];
 
 class SignUpDialog extends Component {
   handleKeyPress = (event) => {
@@ -162,23 +171,56 @@ class SignUpDialog extends Component {
                 </Grid>
               </Grid>
 
-              <TextField
-                autoComplete="username"
-                fullWidth
-                label="Username"
-                margin="normal"
-                required
-                type="text"
-              />
+              <Grid container spacing={2}>
+                <Grid item xs>
+                  <TextField
+                    autoComplete="username"
+                    fullWidth
+                    label="Username"
+                    margin="normal"
+                    required
+                    type="text"
+                  />
+                </Grid>
 
-              <TextField
-                autoComplete="email"
-                fullWidth
-                label="E-mail address"
-                margin="normal"
-                required
-                type="email"
-              />
+                <Grid item xs>
+                  <FormControl fullWidth margin="normal" required>
+                    <InputLabel>Gender</InputLabel>
+
+                    <Select value="">
+                      {genders.map((gender) => {
+                        return (
+                          <MenuItem key={gender} value={gender}>{gender.charAt(0).toUpperCase() + gender.slice(1)}</MenuItem>
+                        );
+                      })}
+                    </Select>
+                  </FormControl>
+                </Grid>
+              </Grid>
+
+              <Grid container spacing={2}>
+                <Grid item xs>
+                  <TextField
+                    autoComplete="email"
+                    fullWidth
+                    label="E-mail address"
+                    margin="normal"
+                    required
+                    type="email"
+                  />
+                </Grid>
+
+                <Grid item xs>
+                  <TextField
+                    autoComplete="email"
+                    fullWidth
+                    label="E-mail address confirmation"
+                    margin="normal"
+                    required
+                    type="email"
+                  />
+                </Grid>
+              </Grid>
 
               <Grid container spacing={2}>
                 <Grid item xs>
