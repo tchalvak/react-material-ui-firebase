@@ -111,14 +111,14 @@ class SignUpDialog extends Component {
     ];
 
     return (
-      <Dialog fullScreen={fullScreen} open={open} onClose={onClose} onKeyPress={this.handleKeyPress}>
+      <Dialog fullScreen={fullScreen} fullWidth maxWidth="md" open={open} onClose={onClose} onKeyPress={this.handleKeyPress}>
         <DialogTitle>
           Sign up for an account
         </DialogTitle>
 
         <DialogContent className={classes.dialogContent}>
           <Grid container spacing={4}>
-            <Grid item xs={5}>
+            <Grid item xs={4}>
               <Grid container direction="column" spacing={2}>
                 {authProviders.map((authProvider) => {
                   return (
@@ -137,7 +137,7 @@ class SignUpDialog extends Component {
               <Divider className={classes.divider} />
             </Grid>
 
-            <Grid item xs={6}>
+            <Grid item xs={7}>
               <Grid container spacing={2}>
                 <Grid item xs>
                   <TextField
