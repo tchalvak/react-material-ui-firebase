@@ -22,6 +22,10 @@ import YahooIcon from 'mdi-material-ui/Yahoo';
 import PropTypes from 'prop-types';
 
 const styles = (theme) => ({
+  dialogContent: {
+    overflowY: 'hidden'
+  },
+
   icon: {
     marginRight: theme.spacing(0.5)
   },
@@ -112,9 +116,9 @@ class SignUpDialog extends Component {
           Sign up for an account
         </DialogTitle>
 
-        <DialogContent>
+        <DialogContent className={classes.dialogContent}>
           <Grid container spacing={4}>
-            <Grid item xs={4}>
+            <Grid item xs={5}>
               <Grid container direction="column" spacing={2}>
                 {authProviders.map((authProvider) => {
                   return (
@@ -133,7 +137,7 @@ class SignUpDialog extends Component {
               <Divider className={classes.divider} />
             </Grid>
 
-            <Grid item xs={7}>
+            <Grid item xs={6}>
               <Grid container spacing={2}>
                 <Grid item xs>
                   <TextField
