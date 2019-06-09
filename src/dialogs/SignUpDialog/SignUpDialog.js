@@ -128,7 +128,7 @@ class SignUpDialog extends Component {
         <DialogContent className={classes.dialogContent}>
           <Grid container spacing={4}>
             <Grid item xs={4}>
-              <Grid container direction="column" spacing={2}>
+              <Grid container direction="column" spacing={1}>
                 {authProviders.map((authProvider) => {
                   return (
                     <Grid key={authProvider.key} item>
@@ -153,7 +153,7 @@ class SignUpDialog extends Component {
                     autoComplete="given-name"
                     fullWidth
                     label="First name"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="text"
                   />
@@ -164,7 +164,7 @@ class SignUpDialog extends Component {
                     autoComplete="family-name"
                     fullWidth
                     label="Last name"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="text"
                   />
@@ -177,14 +177,14 @@ class SignUpDialog extends Component {
                     autoComplete="username"
                     fullWidth
                     label="Username"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="text"
                   />
                 </Grid>
 
                 <Grid item xs>
-                  <FormControl fullWidth margin="normal" required>
+                  <FormControl fullWidth margin="dense" required>
                     <InputLabel>Gender</InputLabel>
 
                     <Select value="">
@@ -204,7 +204,7 @@ class SignUpDialog extends Component {
                     autoComplete="email"
                     fullWidth
                     label="E-mail address"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="email"
                   />
@@ -215,7 +215,7 @@ class SignUpDialog extends Component {
                     autoComplete="email"
                     fullWidth
                     label="E-mail address confirmation"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="email"
                   />
@@ -228,7 +228,7 @@ class SignUpDialog extends Component {
                     autoComplete="new-password"
                     fullWidth
                     label="Password"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="password"
                   />
@@ -239,7 +239,7 @@ class SignUpDialog extends Component {
                     autoComplete="password"
                     fullWidth
                     label="Password confirmation"
-                    margin="normal"
+                    margin="dense"
                     required
                     type="password"
                   />
